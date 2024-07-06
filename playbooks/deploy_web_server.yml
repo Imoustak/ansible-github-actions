@@ -8,7 +8,7 @@
       when: ansible_os_family == "Debian"
 
   tasks:
-    - name: Install Nginx WebServer
+    - name: Install Nginx Web Server
       ansible.builtin.apt:
         update_cache: true
         name: nginx
